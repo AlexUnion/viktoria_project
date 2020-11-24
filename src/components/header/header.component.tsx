@@ -1,6 +1,6 @@
 import React from "react";
-
 import './header.style.scss';
+import { ReactComponent as Cake } from "../../assets/cake.svg";
 
 function Header(): JSX.Element {
     return (
@@ -10,10 +10,11 @@ function Header(): JSX.Element {
                 <img src="/to_left_arrow.png" alt=""/>
                 <div className='content'>Тортики домашнього приготування за классичними рецептами</div>
                 <div className='link_container'>
-                    <a href="" className='link_item'>Замовити</a>
-                    <a href="" className='link_item'>Переглянути</a>
+                    <a href="#" className='link_item'>Замовити</a>
+                    <a href="#" className='link_item'>Переглянути</a>
                 </div>
             </div>
+            <Cake className='cake'/>
         </div>
     )
 }
