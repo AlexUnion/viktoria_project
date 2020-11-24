@@ -23,8 +23,8 @@ function NavBar(): JSX.Element {
                 </div>
             </div>
             <div className='contacts'>
-                <FaceBook className='contact_item'/>
                 <Instagram className='contact_item'/>
+                <FaceBook className='contact_item'/>
             </div>
         </div>
     )

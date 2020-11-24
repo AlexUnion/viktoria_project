@@ -42,6 +42,11 @@
     & .contact_item {
       width: 23px;
       height: 23px;
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(1.1);
+      }
 
       &:first-child {
         margin-right: 14px;
