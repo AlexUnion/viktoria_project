@@ -7,7 +7,6 @@ function Header(): JSX.Element {
         <div className='header_container'>
             <div className='header_inner'>
                 <h1>Black and White Cakes</h1>
-                <img src="/to_left_arrow.png" alt=""/>
                 <div className='content'>Тортики домашнього приготування за классичними рецептами</div>
                 <div className='link_container'>
                     <a href="#" className='montserrat btn btn_white'>Замовити</a>
