@@ -3,13 +3,17 @@
   background-color: #fff;
 
   .orders {
-    margin: 50px 5%;
+    margin: 50px 5% 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 
     @media screen and (max-width: 1240px) {
       margin: 50px 5px;
+    }
+
+    @media screen and (max-width: 1120px) {
+      justify-content: center;
     }
   }
 }
