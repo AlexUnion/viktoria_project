@@ -11,7 +11,7 @@
       "src": "to_left_arrow.png",
       "type": "image/png",
       "sizes": "139x10"
-    },
+    }
   ],
   "start_url": ".",
   "display": "standalone",
