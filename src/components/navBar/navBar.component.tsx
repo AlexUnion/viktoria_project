@@ -1,6 +1,6 @@
 import React from 'react';
 import './navBar.style.scss';
-import { ReactComponent as Logo } from "../../assets/logo.svg";
+import { ReactComponent as Logo } from "../../assets/logo1.svg";
 import { ReactComponent as FaceBook } from "../../assets/facebook.svg";
 import { ReactComponent as Instagram } from "../../assets/instagram.svg";
 
@@ -19,12 +19,19 @@ function NavBar(): JSX.Element {
                     Чому ми
                 </div>
                 <div className='navigation_item'>
+                    Доставка
+                </div>
+                <div className='navigation_item'>
                     Контакти
                 </div>
             </div>
             <div className='contacts'>
-                <Instagram className='contact_item'/>
-                <FaceBook className='contact_item'/>
+                <a href="https://instagram.com/blackwhite_cake?igshid=cric0p2x09g8">
+                    <Instagram className='contact_item'/>
+                </a>
+                <a href="https://www.facebook.com/BWCakes-104777324802492">
+                    <FaceBook className='contact_item'/>
+                </a>
             </div>
         </div>
     )
