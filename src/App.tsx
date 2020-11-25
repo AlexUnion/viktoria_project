@@ -5,6 +5,7 @@ import orderInterface from "./interfaces/order.interface";
 import NavBar from "./components/navBar/navBar.component";
 import Header from "./components/header/header.component";
 import Orders from "./components/orders/orders.component";
+import Description from "./components/description/description.component";
 
 const orders: Array<orderInterface> = [
     {
@@ -31,6 +32,7 @@ function App(): JSX.Element {
         <NavBar/>
         <Header/>
         <Orders orders={orders}/>
+        <Description/>
       </div>
 );
 }

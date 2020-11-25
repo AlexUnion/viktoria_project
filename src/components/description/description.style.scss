@@ -1,0 +1,47 @@
+.description {
+  width: 100%;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+
+  & .description_container {
+    box-sizing: border-box;
+    margin: 50px auto 0 0;
+    padding: 60px 220px 60px 100px;
+    width: 80%;
+    background: url('../../assets/description-back.jpg');
+    background-size: cover;
+    border-radius: 0 300px 300px 0;
+
+    & .description_text {
+      margin-bottom: 50px;
+    }
+
+    & .description_inner {
+      font-size: 14px;
+      width: 100%;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+
+      & .description_item {
+        & .logo_item {
+          height: 74px;
+          width: 74px;
+          margin-bottom: 20px;
+        }
+
+        & p {
+          width: 70%;
+        }
+      }
+    }
+  }
+
+  & .milk {
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+  }
+}
