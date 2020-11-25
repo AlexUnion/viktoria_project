@@ -15,7 +15,7 @@ function NavBar(): JSX.Element {
                 <div className='navigation_item'>
                     Що випікаємо
                 </div>
-                <div className='navigation_item'>
+                <div className='navigation_item' onClick={() => {window.location.href = '#description'; return false;}}>
                     Чому ми
                 </div>
                 <div className='navigation_item'>

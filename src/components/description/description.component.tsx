@@ -11,7 +11,7 @@ const title: string = 'Чому ми';
 
 function Description(): JSX.Element {
     return (
-        <div className='description montserrat'>
+        <div className='description montserrat' id='description'>
             <Title title={title}/>
             <div className='description_container'>
                 <p className='description_text'>Наша місія — це розділити з вами любов до десертів. Ідея створювати для вас солоденьке з’явилась тоді, коли ми захотіли відродити смак дитинства. Не стримуйте себе, оберіть ваш ідеальний тортик. </p>
