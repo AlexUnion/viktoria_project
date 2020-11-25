@@ -1,4 +1,11 @@
 .orders_container {
   margin-top: 50px;
   background-color: #fff;
+
+  .orders {
+    margin: 50px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 }

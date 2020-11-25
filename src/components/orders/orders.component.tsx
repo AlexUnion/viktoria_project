@@ -14,9 +14,20 @@ function Orders(props: {orders: Array<orderInterface>}): JSX.Element {
     return (
         <div className='orders_container'>
             <Title title={title}/>
-            <div>
-                {orders.map(({title, id}) => (
-                    <Cake key={id} title={title}/>
+            <div className='orders'>
+                {orders.map(({title,
+                                 id,
+                                 weight,
+                                 description,
+                                 price,
+                                 url}
+                                 ) => (
+                    <Cake key={id}
+                          title={title}
+                          description={description}
+                          weight={weight}
+                          url={url}
+                          price={price} handleClick={() => {}}/>
                 ))}
             </div>
         </div>

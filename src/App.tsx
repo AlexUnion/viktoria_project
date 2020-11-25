@@ -13,6 +13,7 @@ const orders: Array<orderInterface> = [
         weight: 1200,
         description: 'Виготовлений з листкового тіста домашнього приготування та ніжного заварного крема. Прикрашений сезонними фруктами.',
         price: 350,
+        url: 'Nap2-mini.png',
     },
     {
         id: 1,
@@ -20,6 +21,7 @@ const orders: Array<orderInterface> = [
         weight: 1000,
         description: 'Виготовлені з ніжного масляного бісквіта з додавання шоколаду, ягід та горішків. Прикрашені цукровою пудрою та м’ятою.',
         price: 300,
+        url: 'Brownie2-mini.png',
     }
 ]
 

@@ -1,10 +1,10 @@
-interface OrderInterface {
-    id: string | number;
+interface CakeInterface {
     title: string;
     weight: number;
     description: string;
     price: number;
     url: string;
+    handleClick: () => void;
 }
 
-export default OrderInterface;
+export default CakeInterface;

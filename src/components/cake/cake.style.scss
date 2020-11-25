@@ -1,0 +1,46 @@
+.cake_container {
+  width: 458px;
+  height: 627px;
+  background-color: #1D1D1D;
+  border-radius: 25px;
+  color: #fff;
+  padding: 0 44px;
+
+  & .cake_img {
+    height: 280px;
+    width: 100%;
+    margin: 20px auto 26px;
+  }
+
+  & p {
+    margin-bottom: 20px;
+  }
+
+  & .cake_title {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  & .cake_weight {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  & .cake_description {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  & .cake_inner {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+
+    & .cake_price {
+      font-size: 24px;
+      font-weight: 700;
+      padding: 10px 0;
+    }
+  }
+}
